@@ -1,0 +1,80 @@
+.MatchContent{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  height: 125px;
+  width: 670px;
+  margin-bottom: 5px;
+}
+
+.GameSettingInfo{
+  width: 100px;
+  text-align: center;
+  height: 100%;
+}
+
+.GameSettingInfo>.ChampionIcon{
+  width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.GameSettingInfo>.ChampionName{
+  margin-top: 2px;
+}
+
+.SummonerSpell{
+  width: 35px;
+  padding: 5px 5px 5px 5px;
+}
+
+.Runes{
+  text-align: center;
+  width: 300px;
+  padding: 5px 5px 5px 5px;
+  line-height: 18px;
+}
+
+.Runes .Primary{
+  width: 50%;
+  float: left;
+}
+
+.Runes .Secondary{
+  width-left: 50%;
+}
+
+.MatchContent .Items {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 75px;
+  height: 100%;
+  padding: 5px 5px 5px 5px;
+}
+
+.MatchContent .Items .Item {
+  padding: 0px 5px 0px 5px;
+}
+
+.GameStats{
+  height: 100%;
+  width: 120px;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  line-height: 23px;
+}
+
+.Win{
+  background-color: rgba(142, 185, 255, 0.7);
+  border: 2px solid #609dff;
+  border-radius: 5px;
+}
+
+.Lose{
+  background-color: rgba(255, 89, 89, 0.7);
+  border: 2px solid #ff3d3d;
+  border-radius: 5px;
+}
